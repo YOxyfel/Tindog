@@ -40,6 +40,23 @@ h1, h2, h3
     text-align: center;
 }
 
+.card:hover .card-header
+{
+    outline: #f2b1a9 solid 0.1px;
+    background-color: rgb(255, 76, 104,0.2);
+}
+.card:hover .card-body
+{
+    outline: #f2b1a9 solid 0.1px;
+    background-color: rgb(239, 129, 114, 0.2);
+}
+
+.card:hover .btn
+{
+    outline: #f2b1a9 solid 0.1px;
+    background-color: #ff4c68;
+}
+
 a
 {
     text-decoration: none;
@@ -133,6 +150,20 @@ a
 
 }
 
+#cta
+{
+    height: 500px;
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+#footer
+{
+    height: 200px;
+    text-align: center;
+    padding: 5% 7%;
+}
+
 .carousel-item
 {
     padding: 5% 15%;
@@ -144,6 +175,22 @@ a
     margin: 3% 2%;
 }
 
+.social
+{
+    color: black;
+    padding: 10px 10px;
+}
+
+.social:hover
+{
+    color: #ff4c68;
+}
+
+.subs
+{
+    font-size: 50px;
+}
+
 button
 {
     margin: 3%;
@@ -152,4 +199,9 @@ button
 .container1
 {
     max-width: 1300px;
+}
+
+a
+{
+    text-decoration: none !important;
 }
