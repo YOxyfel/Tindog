@@ -175,3 +175,34 @@ a { text-decoration: none !important;}
 }
 
 .icon:hover{color: #ff4c68}
+
+
+/* Extra */
+
+.dice-game
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container2
+{
+    margin-left: 10%;
+    padding-top: 8px;
+    text-align: center;
+    height: 40px;
+    width: 200px;
+}
+
+.container2:hover 
+{
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container2:hover .dice-game
+{
+    color:#ff4c68;
+
+}
+
