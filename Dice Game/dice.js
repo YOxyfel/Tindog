@@ -1,14 +1,3 @@
-function txtChange(x)
-{
-    x.innerHTML = "Yes?";
-}
-
-function txtRevert(x)
-{
-    x.innerHTML = "Quick Dice Game?";
-}
-
-
 var randomNum = Math.floor(Math.random() * 6) + 1;
 var randomNum2 = Math.floor(Math.random() * 6) + 1;
 
@@ -26,7 +15,7 @@ else if(randomNum < randomNum2)
 {
     document.querySelector("h1").innerText = "Player Two Wins 🚩";
 }
-else
+else    
 {
     document.querySelector("h1").innerText = "Draw";
 }
