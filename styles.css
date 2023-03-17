@@ -1,0 +1,217 @@
+/* Titles */
+h1, h2, h3
+{
+    font-family: Montserrat, sans-serif;
+}
+
+h2, h3, .col-md-4, .card, #footer, #cta, #press, #testimonials
+{
+    text-align: center;
+}
+
+/* Section 1 TITLE*/
+
+.navbar-brand
+{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+}
+
+.nav-item { padding: 0 20px;}
+
+.nav-link { font-size: 1.2rem;}
+
+
+
+#title { background-color: #ff4c68;}
+
+.title-text
+{
+    margin: 15% 3% 3%;
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#dog
+{
+    margin-left: 15%;
+    max-width: 55%;
+    transform: rotateZ(25deg);
+    position: absolute;
+}
+
+@media (max-width: 991px)
+{
+    #title { text-align: center;}
+    
+    #dog
+    {
+        margin-left: 0;
+        padding: 0;
+        position: static;
+        transform: rotateZ(0deg);
+    }
+}
+
+/* Section 2  FEATURES*/
+
+#features
+{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.col-spacing { margin: 15% auto;}
+
+.container1 { max-width: 1300px; }
+
+/* Section 3 CAROUSEL*/
+
+#testimonials
+{   
+    background-color: #ef8172;
+    padding: 3% 10%;
+}
+
+.testimonial-image
+{
+    max-width: 15%;
+    margin: 3% 2%;
+}
+
+.testimonial-header
+{
+    padding-top: 6%;
+    font-size: 2.5rem;
+}
+
+.carousel-item{ padding: 5% 15%;}
+
+#press { background-color: #ef8172;}
+
+#pfp
+{
+    max-width: 15%;
+    border-radius: 50%;
+    margin: 10% 3%;
+}
+
+/* Section 4 PRICING*/
+
+.card-title
+{
+    font-size: 35px;
+    padding-bottom: 3%;
+}
+
+.card { margin: 3% 3%;}
+
+.card:hover .card-header
+{
+    outline: #f2b1a9 solid 0.1px;
+    background-color: rgb(255, 76, 104,0.2);
+}
+
+.card:hover .card-body
+{
+    outline: #f2b1a9 solid 0.1px;
+    background-color: rgb(239, 129, 114, 0.2);
+}
+
+.card:hover .btn
+{
+    outline: #f2b1a9 solid 0.1px;
+    background-color: #ff4c68;
+}
+
+.subs { font-size: 50px;}
+
+button { margin: 3%;}
+
+/* Section 5 EXTRA*/
+
+#cta
+{
+    height: 500px;
+    background-color: #ff4c68;
+}
+
+@media (min-width: 767px) and (max-width: 991px)
+{
+    #cta { height: 400px;}
+}
+
+@media (min-width: 991px) and (max-width: 1200px)
+{
+    #cta { height: 450px;}
+}
+
+/* Section 6 FOOTER*/
+
+#footer
+{
+    height: 200px;
+    padding: 5% 7%;
+}
+
+.social
+{
+    color: black;
+    padding: 10px 10px;
+}
+
+.social:hover { color: #ff4c68;}
+
+/* Icon and Link Decoration */
+
+a { text-decoration: none !important;}
+
+.icon 
+{
+    color: #ef8172;
+    padding: 0 0 20px 0;
+}
+
+.icon:hover{color: #ff4c68}
+
+
+/* Extra */
+
+.dice
+{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    background-image: url('pics/dice.png');
+    background-size: 200px;
+    color:#ff4c68;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.dice:hover
+{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    color:white;
+}
+
+.drum
+{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    background-image: url('pics/drums.png');
+    background-size: 300px;
+    background-position: right;
+    color:#ff4c68;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.drum:hover
+{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    color:white;
+}
