@@ -1,10 +1,8 @@
 var drumSize = document.querySelectorAll(".drum").length;
-var audios = [];
 var pressAmount = 0;
 
-
 for (var index = 0; index < drumSize; index++) {
-    var keynum;
+    
     document.querySelectorAll(".drum")[index].addEventListener("click", function ()
     {
         exppr(this.innerHTML);
@@ -20,9 +18,9 @@ document.addEventListener("keydown", function(event)
 
 function checkStrokes() 
 {
-    if(pressAmount > 10)
+    if(pressAmount > 15)
     {
-        var audio = new Audio('sounds/troll.mp3');
+        var audio = new Audio('sounds/door.mp3');
         audio.play();
         pressAmount = 0;
     }
